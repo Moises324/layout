@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+.general {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.contactos {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: solid 2px lightgray;
+}
+.estado_del_usuario {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px lightgray;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+}
+.imagen_de_usuario img {
+  border-radius: 50%;
+  width: 80px;
+  margin-left: 15px;
+}
+.imagen_de_usuario {
+  display: flex;
+}
+.usuario {
+  margin-left: 15px;
+  text-align: center;
+}
+.usuario h2 {
+  margin-bottom: 5px;
+}
+.usuario p {
+  margin-top: 5px;
+}
+.icons {
+  margin-top: 25px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section p {
+  text-align: center;
+  width: 40%;
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+section img {
+  width: 350px;
+}
+button {
+  font-size: 20px;
+  border: none;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  cursor: pointer;
+  background-color: #a491d2;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+button:active {
+  background-color: #cdc3e6;
+}
+.boton {
+  border-bottom: solid 2px lightgray;
+  text-align: center;
+}
+.imagen_de_usuario2 {
+  display: flex;
+  border-bottom: solid 2px lightgray;
+}
+.image {
+  border-radius: 50%;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.user h2 {
+  margin-bottom: 0%;
+}
+.user p {
+  margin-top: 5px;
+  margin-right: 0%;
+  margin-bottom: 10px;
+  margin-left: 0%;
+}
+.columna2 {
+  display: flex;
+  flex-direction: column;
+}
